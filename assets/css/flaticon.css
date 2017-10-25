@@ -1,0 +1,123 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 18/09/2017 10:58
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticond41d.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon.ttf") format("truetype"),
+       url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("Flaticon.html#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+	font-size: 20px;
+	font-style: normal;
+}
+
+.flaticon-like:before { content: "\f100"; }
+.flaticon-coffee:before { content: "\f101"; }
+.flaticon-coffe-cup-outline:before { content: "\f102"; }
+.flaticon-valentines-heart:before { content: "\f103"; }
+.flaticon-arrow-of-double-angle-pointing-down:before { content: "\f104"; }
+.flaticon-two-down-arrows:before { content: "\f105"; }
+.flaticon-barbershop-2:before { content: "\f106"; }
+.flaticon-scissors-badge:before { content: "\f107"; }
+.flaticon-razor-to-cut-hairs:before { content: "\f108"; }
+.flaticon-woman-hair-cut:before { content: "\f109"; }
+.flaticon-whatsapp-logo:before { content: "\f10a"; }
+.flaticon-female-head-silhouette:before { content: "\f10b"; }
+.flaticon-woman-head-silhouette-with-short-hair:before { content: "\f10c"; }
+.flaticon-ponytail-hair:before { content: "\f10d"; }
+.flaticon-scissors-in-a-hair-salon-badge:before { content: "\f10e"; }
+.flaticon-mustache-shape:before { content: "\f10f"; }
+.flaticon-pets-hair-salon-tools-kit:before { content: "\f110"; }
+.flaticon-woman-head-side-silhouette:before { content: "\f111"; }
+.flaticon-hair-salon-badge-with-scissors:before { content: "\f112"; }
+.flaticon-woman-hair-extended-in-front-of-the-head:before { content: "\f113"; }
+.flaticon-female-head-with-big-hair-shape-on-it:before { content: "\f114"; }
+.flaticon-male-head-hair-and-beard:before { content: "\f115"; }
+.flaticon-short-male-hair-shape:before { content: "\f116"; }
+.flaticon-male-hair-of-head-and-face-shapes:before { content: "\f117"; }
+.flaticon-one-comb:before { content: "\f118"; }
+.flaticon-heads-hairs-and-scissors:before { content: "\f119"; }
+.flaticon-chair-side-view-silhouette:before { content: "\f11a"; }
+.flaticon-scissors-and-comb-2:before { content: "\f11b"; }
+.flaticon-female-hair-cut-with-scissors:before { content: "\f11c"; }
+.flaticon-three-bottles-of-hair-salon:before { content: "\f11d"; }
+.flaticon-scissors-and-comb-1:before { content: "\f11e"; }
+.flaticon-hairdresser-with-comb-and-scissors:before { content: "\f11f"; }
+.flaticon-hairdryer-and-comb:before { content: "\f120"; }
+.flaticon-mirror-of-oval-shape:before { content: "\f121"; }
+.flaticon-boy-hair-shape:before { content: "\f122"; }
+.flaticon-brush-tool:before { content: "\f123"; }
+.flaticon-facebook-placeholder-for-locate-places-on-maps:before { content: "\f124"; }
+.flaticon-twitter-logo-silhouette:before { content: "\f125"; }
+.flaticon-linkedin-logo:before { content: "\f126"; }
+.flaticon-shopping-cart-black-shape:before { content: "\f127"; }
+.flaticon-woman-head-side-view:before { content: "\f128"; }
+.flaticon-razor-hair-salon-tool:before { content: "\f129"; }
+.flaticon-scissors-5:before { content: "\f12a"; }
+.flaticon-woman-with-long-hair:before { content: "\f12b"; }
+.flaticon-scissors-4:before { content: "\f12c"; }
+.flaticon-female-hairs:before { content: "\f12d"; }
+.flaticon-scissors-3:before { content: "\f12e"; }
+.flaticon-hairdryer-silhouette-side-view:before { content: "\f12f"; }
+.flaticon-hairdresser-with-scissors-cutting-the-hair-to-a-client-sitting-in-front-of-him:before { content: "\f130"; }
+.flaticon-scissors:before { content: "\f131"; }
+.flaticon-woman-hair:before { content: "\f132"; }
+.flaticon-artistic-brush:before { content: "\f133"; }
+.flaticon-scissors-and-comb:before { content: "\f134"; }
+.flaticon-hair-brush-1:before { content: "\f135"; }
+.flaticon-chair-2:before { content: "\f136"; }
+.flaticon-barbershop-1:before { content: "\f137"; }
+.flaticon-straighten:before { content: "\f138"; }
+.flaticon-bow-tie:before { content: "\f139"; }
+.flaticon-brush-1:before { content: "\f13a"; }
+.flaticon-moustache-1:before { content: "\f13b"; }
+.flaticon-beard:before { content: "\f13c"; }
+.flaticon-moustache:before { content: "\f13d"; }
+.flaticon-hair-dryer:before { content: "\f13e"; }
+.flaticon-spray-1:before { content: "\f13f"; }
+.flaticon-razor-1:before { content: "\f140"; }
+.flaticon-blade:before { content: "\f141"; }
+.flaticon-spray:before { content: "\f142"; }
+.flaticon-hair-brush:before { content: "\f143"; }
+.flaticon-hair-comb:before { content: "\f144"; }
+.flaticon-brush:before { content: "\f145"; }
+.flaticon-razor:before { content: "\f146"; }
+.flaticon-share:before { content: "\f147"; }
+.flaticon-instagram-logo:before { content: "\f148"; }
+.flaticon-facebook-logo:before { content: "\f149"; }
+.flaticon-google-plus-social-logotype:before { content: "\f14a"; }
+.flaticon-scissors-2:before { content: "\f14b"; }
+.flaticon-hair-salon-badge-with-scissors-and-mustache:before { content: "\f14c"; }
+.flaticon-hair-salon-spray-bottle-and-can:before { content: "\f14d"; }
+.flaticon-scissors-opened-tool:before { content: "\f14e"; }
+.flaticon-play-button-1:before { content: "\f14f"; }
+.flaticon-play-button:before { content: "\f150"; }
+.flaticon-search:before { content: "\f151"; }
+.flaticon-perfume:before { content: "\f152"; }
+.flaticon-scissors-1:before { content: "\f153"; }
+.flaticon-hairdresser-washing-the-hair-of-a-client-with-bubbles-shampoo:before { content: "\f154"; }
+.flaticon-cream-1:before { content: "\f155"; }
+.flaticon-cream:before { content: "\f156"; }
+.flaticon-chair-1:before { content: "\f157"; }
+.flaticon-barbershop:before { content: "\f158"; }
+.flaticon-barber:before { content: "\f159"; }
+.flaticon-lotion:before { content: "\f15a"; }
+.flaticon-chair:before { content: "\f15b"; }
+.flaticon-scissors-cutting-hair:before { content: "\f15c"; }

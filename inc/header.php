@@ -59,7 +59,7 @@
 					<div class="col-md-3 col-sm-8 col-xs-7">
 						<div class="logo">
 							<a href="index.html">
-								<img src="assets/images/logo.png" alt="" />
+								<img src="assets/images/2.png" width="100" height="100" alt="" />
 							</a>
 						</div>
 					</div>

@@ -66,7 +66,7 @@
 					<div class="col-md-8 hidden-sm hidden-xs">
 						<div class="mainmenu">
 							<ul id="navigation">
-								<li class="active"><a href="index.html">Home </a>
+								<li class="active"><a href="index.php">Home </a>
 									
 								</li>
 								<li><a href="about.php">About </a>
@@ -75,7 +75,7 @@
 								<li><a href="services.php">Services </a>
 									
 								</li>
-								<li><a href="products.html">Products </a>
+								<li><a href="products.php">Products </a>
                                    
                                 </li>
 								<li><a href="#">Gallery </a>
@@ -86,7 +86,7 @@
 											
 										</ul>	
 										</li>	
-								<li><a href="contact.html">Contact</a></li>
+								<li><a href="contact.php">Contact</a></li>
 								
 							</ul>
 						</div>

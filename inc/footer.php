@@ -5,7 +5,7 @@
 					<div class="row">
 						<div class="col-md-3 col-sm-6 col-xs-12">
 							<div class="footer-widget">
-								<img src="assets/images/logo2.png" alt="" />
+								<img src="assets/images/2.png"  width="100" height="100" alt="" />
 								<p>Lorem ipsum dolor amet consectetur adipisicing elit sed eiusmod</p>
 								<div class="contact">
 									<ul>

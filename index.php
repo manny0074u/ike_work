@@ -72,10 +72,10 @@ include('inc/header.php');
 					<div class="col-md-4 col-sm-6 col-xs-12">
 						<div class="service-wrap text-center mb-30">
 							<div class="service-img">
-								<img src="assets/images/service/1.jpg" alt="" />
+								<img src="assets/images/basic.jpg" alt="" />
 							</div>
 							<div class="service-content">
-								<h3>HAIR CUTING</h3>
+								<h3>Basic haircut</h3>
 								
 							</div>
 						</div>
@@ -86,7 +86,7 @@ include('inc/header.php');
 								<img src="assets/images/service/2.jpg" alt="" />
 							</div>
 							<div class="service-content">
-								<h3>Hair Stylist</h3>
+								<h3>Enhanced haircut</h3>
 								
 							</div>
 						</div>
@@ -97,44 +97,12 @@ include('inc/header.php');
 								<img src="assets/images/service/3.jpg" alt="" />
 							</div>
 							<div class="service-content">
-								<h3>Hair Color</h3>
+								<h3>Face steaming</h3>
 								
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 col-sm-6 col-xs-12">
-						<div class="service-wrap text-center">
-							<div class="service-img">
-								<img src="assets/images/service/4.jpg" alt="" />
-							</div>
-							<div class="service-content">
-								<h3>Hair Treatment</h3>
-								
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 col-xs-12">
-						<div class="service-wrap text-center">
-							<div class="service-img">
-								<img src="assets/images/service/5.jpg" alt="" />
-							</div>
-							<div class="service-content">
-								<h3>Hair Wash</h3>
-								
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 col-xs-12">
-						<div class="service-wrap text-center">
-							<div class="service-img">
-								<img src="assets/images/service/6.jpg" alt="" />
-							</div>
-							<div class="service-content">
-								<h3>Shave</h3>
-								
-							</div>
-						</div>
-					</div>
+					
 				</div>
 			</div>
 		</div>
@@ -156,38 +124,38 @@ include('inc/header.php');
 					<div class="row">
                         <div class="col-xs-6 col-md-2 col-sm-4">
                             <div class="opening-item">
-                                <h3>SAT</h3>
-                                <p>10.00 AM - 02.00 PM</p>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 col-md-2 col-sm-4">
-                            <div class="opening-item">
-                                <h3>SUN</h3>
-                                <p>10.00 AM - 02.00 PM</p>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 col-md-2 col-sm-4">
-                            <div class="opening-item">
                                 <h3>MON</h3>
-                                <p>10.00 AM - 02.00 PM</p>
+                                <p>09.00 AM - 09.00 PM</p>
                             </div>
                         </div>
                         <div class="col-xs-6 col-md-2 col-sm-4">
                             <div class="opening-item">
                                 <h3>TUE</h3>
-                                <p>10.00 AM - 02.00 PM</p>
+                                <p>90.00 AM - 09.00 PM</p>
                             </div>
                         </div>
                         <div class="col-xs-6 col-md-2 col-sm-4">
                             <div class="opening-item">
                                 <h3>WED</h3>
-                                <p>10.00 AM - 02.00 PM</p>
+                                <p>CLOSED</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-md-2 col-sm-4">
+                            <div class="opening-item">
+                                <h3>THU</h3>
+                                <p>10.00 AM - 09.00 PM</p>
                             </div>
                         </div>
                         <div class="col-xs-6 col-md-2 col-sm-4">
                             <div class="opening-item">
                                 <h3>FRI</h3>
-                                <p>Close</p>
+                                <p>09.00 AM - 09.00 PM</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-md-2 col-sm-4">
+                            <div class="opening-item">
+                                <h3>WEEKEND</h3>
+                                  <p>11.00 AM - 10.00 PM</p>
                             </div>
                         </div>
 					</div>
@@ -222,76 +190,25 @@ include('inc/header.php');
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 col-sm-6 col-xs-12 grid-item ">
-						<div class="portfolio-wrap mb-30">
-							<img src="assets/images/portfolio/portfolio2/2.jpg" alt="" />
-							<div class="portfolio-content">
-								<a href="assets/images/portfolio/portfolio2/2.jpg" class="popup">
-									<span class="fa fa-link"></span>
-								</a>
-								<h3>BEARD TRIMMING</h3>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 col-xs-12 grid-item ">
-						<div class="portfolio-wrap mb-30">
-							<img src="assets/images/portfolio/portfolio2/3.jpg" alt="" />
-							<div class="portfolio-content">
-								<a href="https://vimeo.com/168182511" class="video-popup">
-									<span class="fa fa-play"></span>
-								</a>
-								<h3>BEARD TRIMMING</h3>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 col-xs-12 grid-item ">
-						<div class="portfolio-wrap mb-30">
-							<img src="assets/images/portfolio/portfolio2/4.jpg" alt="" />
-							<div class="portfolio-content">
-								<a href="assets/images/portfolio/portfolio2/4.jpg" class="popup">
-									<span class="fa fa-link"></span>
-								</a>
-								<h3>BEARD TRIMMING</h3>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 col-xs-12 grid-item ">
-						<div class="portfolio-wrap mb-30">
-							<img src="assets/images/portfolio/portfolio2/7.jpg" alt="" />
-							<div class="portfolio-content">
-								<a href="https://www.youtube.com/watch?v=6CfAhQcjGXU" class="video-popup">
-									<span class="fa fa-play"></span>
-								</a>
-								<h3>BEARD TRIMMING</h3>
-							</div>
-						</div>
-					</div> 
-                    <div class="col-md-8 col-sm-6 col-xs-12 grid-item ">
-						<div class="portfolio-wrap">
-							<img src="assets/images/portfolio/portfolio2/8.jpg" alt="" />
-							<div class="portfolio-content">
-								<a href="assets/images/portfolio/portfolio2/8.jpg" class="popup">
-									<span class="fa fa-link"></span>
-								</a>
-								<h3>BEARD TRIMMING</h3>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-xs-12 grid-item ">
-						<div class="portfolio-wrap">
-							<img src="assets/images/portfolio/portfolio2/1.jpg" alt="" />
-							<div class="portfolio-content">
-								<a href="assets/images/portfolio/portfolio2/1.jpg" class="popup">
-									<span class="fa fa-link"></span>
-								</a>
-								<h3>BEARD TRIMMING</h3>
-							</div>
-						</div>
-					</div>
+					
 				</div>
 			</div>
 		</div>
 		<!-- galley-area end -->
+
+		         <div class="spacial-area ptb-100 parallax black-opacity"  data-speed="3" data-bg-image="assets/images/bg/6.jpg">
+        	<div class="container">
+        		<div class="row">
+        			<div class="col-xs-12">
+                        <div class="spacial-wrap text-center">
+                            <p>Make your appointment</p>
+                            <h2>(+7) 081 8945 4566 & (+2) 015 1544 5415</h2>
+                        </div>
+                    </div>
+        		</div>
+        	</div>
+        </div>
+        
         
 		<!-- .shop-area start -->
         <div class="shop-area ptb-100 bg-1 shop-area2">
@@ -328,53 +245,13 @@ include('inc/header.php');
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="shop-wrap">
-                            <div class="shop-img">
-                                <img src="assets/images/shop/5.jpg" alt="" />
-                                <a href="shop.html" class="cart">
-                                    <i class="fa fa-shopping-cart"></i>
-                                </a>
-                            </div>
-                            <div class="shop-content">
-                                <h3><a href="shop.html">Hair Dryer</a></h3>
-                                <ul>
-                                	<li><i class="fa fa-star"></i></li>
-                                	<li><i class="fa fa-star"></i></li>
-                                	<li><i class="fa fa-star"></i></li>
-                                	<li><i class="fa fa-star"></i></li>
-                                	<li><i class="fa fa-star-o"></i></li>
-                                </ul>
-                                <span>$28.00</span>
-                                <del>$30.00</del>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="shop-wrap">
-                            <div class="shop-img">
-                                <img src="assets/images/shop/6.jpg" alt="" />
-                                <a href="shop.html" class="cart">
-                                    <i class="fa fa-shopping-cart"></i>
-                                </a>
-                            </div>
-                            <div class="shop-content">
-                                <h3><a href="shop.html">Hair Dryer</a></h3>
-                                <ul>
-                                	<li><i class="fa fa-star"></i></li>
-                                	<li><i class="fa fa-star"></i></li>
-                                	<li><i class="fa fa-star-half-o"></i></li>
-                                	<li><i class="fa fa-star-o"></i></li>
-                                	<li><i class="fa fa-star-o"></i></li>
-                                </ul>
-                                <span>$28.00</span>
-                                <del>$24.00</del>
-                            </div>
-                        </div>
-                    </div>
+                   
                 </div>
         	</div>
         </div>
+
+
+  
         <!-- .shop-area end -->
 		
 		<!-- funfact-area start 
@@ -502,75 +379,7 @@ include('inc/header.php');
 		</div>-->
 		<!-- pricing-table end -->
 		
-		<!-- appointment-area start -->
-		<div class="appointment-area ptb-100 parallax black-opacity"  data-speed="3" data-bg-image="assets/images/bg/4.jpg">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1 col-xs-12">
-						<div class="section-title text-center mb-40 section-title2">
-							<h2>MAKE AN APPOINTMENT</h2>
-							<div class="line"><span class="flaticon-hair-salon-badge-with-scissors"></span></div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="form-style">
-						<form action="#">
-							<div class="col-md-6 col-xs-12">
-								<div class="row">
-									<div class="col-sm-6 col-xs-12">
-										<label>
-											Name <span>*</span>
-											<input type="text" placeholder="Your Name.."/>
-										</label>
-									</div>
-									<div class="col-sm-6 col-xs-12">
-										<label>
-											Email <span>*</span>
-											<input type="email" placeholder="Your Email.."/>
-										</label>
-									</div>
-									<div class="col-sm-6 col-xs-12">
-										<label>
-											Phone <span>*</span>
-											<input type="text" placeholder="Mobail Number.."/>
-										</label>
-									</div>
-									<div class="col-sm-6 col-xs-12">
-										<label>
-											Service <span>*</span>
-											<input type="text" placeholder="Your Service.."/>
-										</label>
-									</div>
-									<div class="col-sm-6 col-xs-12">
-										<label>
-											Barber <span>*</span>
-											<input type="text" placeholder="Your barber.."/>
-										</label>
-									</div>
-									<div class="col-sm-6 col-xs-12">
-										<label>
-											Date <span>*</span>
-											<input type="text" placeholder="Date.."/>
-										</label>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-6 col-xs-12">
-								<label>
-									Massage
-									<textarea name="massage" id="text" cols="30" rows="10" placeholder="Your Massage..."></textarea>
-								</label>
-							</div>
-							<div class="col-xs-12 text-center">
-								<button>Book Appointment</button>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
+		
 		<!-- appointment-area end -->
         
 		<!-- team-area start 

@@ -1,4 +1,5 @@
 <?php
+$menu="service";
 include('inc/header.php');
 
 
@@ -43,7 +44,7 @@ include('inc/header.php');
 					<div class="col-md-4 col-sm-6 col-xs-12">
 						<div class="service-wrap text-center mb-30">
 							<div class="service-img">
-								<img src="assets/images/service/1.jpg" alt="" />
+								<img src="assets/images/basic.png" alt="" />
 							</div>
 							<div class="service-content">
 								<h3>Basic Haircut</h3>
@@ -54,7 +55,7 @@ include('inc/header.php');
 					<div class="col-md-4 col-sm-6 col-xs-12">
 						<div class="service-wrap text-center mb-30">
 							<div class="service-img">
-								<img src="assets/images/service/2.jpg" alt="" />
+								<img src="assets/images/haircut.png" alt="" />
 							</div>
 							<div class="service-content">
 								<h3>Enhanced haircut</h3>
@@ -65,7 +66,7 @@ include('inc/header.php');
 					<div class="col-md-4 col-sm-6 col-xs-12">
 						<div class="service-wrap text-center mb-30">
 							<div class="service-img">
-								<img src="assets/images/service/3.jpg" alt="" />
+									<img src="assets/images/face.png" alt="" />
 							</div>
 							<div class="service-content">
 								<h3>Face steaming</h3>
@@ -76,7 +77,7 @@ include('inc/header.php');
 					<div class="col-md-4 col-sm-6 col-xs-12">
 						<div class="service-wrap text-center">
 							<div class="service-img">
-								<img src="assets/images/service/4.jpg" alt="" />
+								<img src="assets/images/masking.png" alt="" />
 							</div>
 							<div class="service-content">
 								<h3>Face mask</h3>
@@ -88,7 +89,7 @@ include('inc/header.php');
 					<div class="col-md-4 col-sm-6 col-xs-12">
 						<div class="service-wrap text-center">
 							<div class="service-img">
-								<img src="assets/images/service/5.jpg" alt="" />
+								<img src="assets/images/color.jpg" alt="" />
 							</div>
 							<div class="service-content">
 								<h3>Hair colouration</h3>
@@ -99,7 +100,7 @@ include('inc/header.php');
 					<div class="col-md-4 col-sm-6 col-xs-12">
 						<div class="service-wrap text-center">
 							<div class="service-img">
-								<img src="assets/images/service/6.jpg" alt="" />
+								<img src="assets/images/short.jpg" alt="" />
 							</div>
 							<div class="service-content">
 								<h3>Dreadlocks (long /short)</h3>

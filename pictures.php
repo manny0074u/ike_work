@@ -3,6 +3,7 @@
 
 
 <?php
+$menu="gallery";
 include('inc/header.php');
 
 
@@ -16,8 +17,8 @@ include('inc/header.php');
                         <div class="row">
                             <div class="col-xs-12">
                                 <div class="breadcumb-wrap text-center">
-                                    <h1>Our Protfolio & Best Works</h1>
-                                    <h2>Portfolio Masonary</h2>
+                                    <h1>Our Pictures</h1>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -29,9 +30,9 @@ include('inc/header.php');
                 	<div class="row">
                 		<div class="col-xs-12">
                 			<ul>
-                				<li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+                				<li><a href="index.php"><i class="fa fa-home"></i> Home</a></li>
                 				<li>-/-</li>
-                				<li>Portfolio Masonary</li>
+                				<li>Pictures</li>
                 			</ul>
                 		</div>
                 	</div>
@@ -51,10 +52,13 @@ include('inc/header.php');
 								<a href="assets/images/portfolio/portfolio2/6.jpg" class="popup">
 									<span class="fa fa-link"></span>
 								</a>
-								<h3>BEARD TRIMMING</h3>
+								
 							</div>
 						</div>
 					</div>
+
+
+                  
 					
 				</div>
 			</div>

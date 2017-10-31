@@ -1,4 +1,5 @@
 <?php
+$menu="product";
 include('inc/header.php');
 
 

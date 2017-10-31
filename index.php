@@ -1,4 +1,5 @@
 <?php 
+$menu="home";
 include('inc/header.php');
 
 
@@ -72,7 +73,7 @@ include('inc/header.php');
 					<div class="col-md-4 col-sm-6 col-xs-12">
 						<div class="service-wrap text-center mb-30">
 							<div class="service-img">
-								<img src="assets/images/basic.jpg" alt="" />
+								<img src="assets/images/basic.png" alt="" />
 							</div>
 							<div class="service-content">
 								<h3>Basic haircut</h3>
@@ -83,7 +84,7 @@ include('inc/header.php');
 					<div class="col-md-4 col-sm-6 col-xs-12">
 						<div class="service-wrap text-center mb-30">
 							<div class="service-img">
-								<img src="assets/images/service/2.jpg" alt="" />
+								<img src="assets/images/haircut.png" alt="" />
 							</div>
 							<div class="service-content">
 								<h3>Enhanced haircut</h3>
@@ -94,7 +95,7 @@ include('inc/header.php');
 					<div class="col-md-4 col-sm-6 col-xs-12">
 						<div class="service-wrap text-center mb-30">
 							<div class="service-img">
-								<img src="assets/images/service/3.jpg" alt="" />
+								<img src="assets/images/face.png" alt="" />
 							</div>
 							<div class="service-content">
 								<h3>Face steaming</h3>

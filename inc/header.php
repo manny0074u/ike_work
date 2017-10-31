@@ -5,11 +5,11 @@
 <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Legacy || Home One</title>
+        <title>Sanusi ikeoluwa grooming prodigy (SIGP)</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+        <link rel="shortcut icon" type="image/png" href="assets/images/21.png">
         <!-- Place favicon.ico in the root directory -->
 
 		<!-- all css here -->
@@ -66,27 +66,27 @@
 					<div class="col-md-8 hidden-sm hidden-xs">
 						<div class="mainmenu">
 							<ul id="navigation">
-								<li class="active"><a href="index.php">Home </a>
+								<li class="<?php if ($menu == "home") { echo "active"; } ?>"><a href="index.php">Home </a>
 									
 								</li>
-								<li><a href="about.php">About </a>
+								<li class="<?php if ($menu == "about") { echo "active"; } ?>"><a href="about.php">About </a>
 									
 								</li>
-								<li><a href="services.php">Services </a>
+								<li class="<?php if ($menu == "service") { echo "active"; } ?>"><a href="services.php">Services </a>
 									
 								</li>
-								<li><a href="products.php">Products </a>
+								<li class="<?php if ($menu == "product") { echo "active"; } ?>"><a href="products.php">Products </a>
                                    
                                 </li>
-								<li><a href="#">Gallery </a>
+								<li class="<?php if ($menu == "gallery") { echo "active"; } ?>"> <a href="#">Gallery </a>
 
 								<ul class="submenu">
-											<li><a href="pictures.php">Pictures</a></li>
+											<li ><a href="pictures.php">Pictures</a></li>
 											<li><a href="videos.php">Videos</a></li>
 											
 										</ul>	
 										</li>	
-								<li><a href="contact.php">Contact</a></li>
+								<li class="<?php if ($menu == "contact") { echo "active"; } ?>"><a href="contact.php">Contact</a></li>
 								
 							</ul>
 						</div>

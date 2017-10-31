@@ -1,4 +1,5 @@
 <?php
+$menu="about";
 include('inc/header.php');
 
 ?>

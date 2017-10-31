@@ -203,7 +203,7 @@ include('inc/header.php');
         			<div class="col-xs-12">
                         <div class="spacial-wrap text-center">
                             <p>Make your appointment</p>
-                            <h2>(+7) 081 8945 4566 & (+2) 015 1544 5415</h2>
+                            <h2>08184488404 & 08180852283</h2>
                         </div>
                     </div>
         		</div>

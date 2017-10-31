@@ -6,22 +6,22 @@
 						<div class="col-md-3 col-sm-6 col-xs-12">
 							<div class="footer-widget">
 								<img src="assets/images/2.png"  width="100" height="100" alt="" />
-								<p>Lorem ipsum dolor amet consectetur adipisicing elit sed eiusmod</p>
+								<p>We specialize in all forms of barbering</p>
 								<div class="contact">
 									<ul>
-										<li><i class="fa fa-map-marker"></i> <span> Street South Richmond Hill, NY25</span></li>
-										<li><i class="fa fa-phone"></i> <span>0044 305 32391256</span></li>
-										<li><i class="fa fa-envelope"></i> <span>haircut@gmail.com</span></li>
+										<li><i class="fa fa-map-marker"></i> <span> 45, Odejayi Street,Surulere Lagos </span></li>
+										<li><i class="fa fa-phone"></i> <span>08184488404 & 08180852283</span></li>
+										<li><i class="fa fa-envelope"></i> <span>info@sigprodigy.com</span></li>
 									</ul>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-3 col-sm-6 col-xs-12">
 							<div class="footer-widget">
-								<h2>Hair Salon</h2>
+								<h2>Useful Links</h2>
 								<div class="footer-menu">
 									<ul>
-										<li><a href="about.html">About Us</a></li>
+										<li><a href="about.php">About Us</a></li>
 										<li><a href="#">Salons</a></li>
 										<li><a href="shop.html">Shop</a></li>
 										<li><a href="#">Giftcards</a></li>
@@ -35,38 +35,7 @@
 							<div class="footer-widget">
 								<h2>instagram</h2>
 								<div class="instagram">
-                                    <ul>
-                                        <li>
-                                            <a href="#">
-                                                <img src="assets/images/instagram/1.jpg" alt="" />
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <img src="assets/images/instagram/2.jpg" alt="" />
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <img src="assets/images/instagram/3.jpg" alt="" />
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <img src="assets/images/instagram/4.jpg" alt="" />
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <img src="assets/images/instagram/5.jpg" alt="" />
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <img src="assets/images/instagram/6.jpg" alt="" />
-                                            </a>
-                                        </li>
-                                    </ul>
+                                    <script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/2e4d58a4fb2956d5875a12273e392cd9.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
 								</div>
 							</div>
 						</div>
@@ -91,7 +60,7 @@
 					<div class="row">
 						<div class="col-sm-6 col-xs-12">
 							<div class="copyright">
-								<p>2017 Legacy, All Right Reserved</p>
+								<p>2017 Sanusi Ikeoluwa Grooming Prodigy (SIGP). Designed  by <a href="http://e3tech.com.ng" target="blak_">E3 technologies</a> </p>
 							</div>
 						</div>
 						<div class="col-sm-6 col-xs-12">

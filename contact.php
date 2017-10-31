@@ -55,7 +55,7 @@ if(isset($_POST["submit"]))
                 	<div class="row">
                 		<div class="col-xs-12">
                 			<ul>
-                				<li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+                				<li><a href="index.php"><i class="fa fa-home"></i> Home</a></li>
                 				<li>-/-</li>
                 				<li>Contact</li>
                 			</ul>

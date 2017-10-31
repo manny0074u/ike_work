@@ -58,7 +58,7 @@
 				<div class="row">
 					<div class="col-md-3 col-sm-8 col-xs-7">
 						<div class="logo">
-							<a href="index.html">
+							<a href="index.php">
 								<img src="assets/images/2.png" width="100" height="100" alt="" />
 							</a>
 						</div>

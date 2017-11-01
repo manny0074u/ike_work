@@ -42,13 +42,7 @@
 						<div class="col-md-3 col-sm-6 col-xs-12">
 							<div class="footer-widget">
 								<h2>QUICK BOOKING</h2>
-								<div class="form-style">
-									<form action="#">
-										<input type="text" placeholder="Your Name"/>
-										<input type="email" placeholder="Your Email"/>
-										<input type="text" placeholder="Time Schedule"/>
-										<button>SEND</button>
-									</form>
+								<div<div class="fb-page" data-href="https://www.facebook.com/sanusiikeoluwaa/" data-tabs="timeline" data-height="400" data-width="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/facebook"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div>
 								</div>
 							</div>
 						</div>
@@ -66,11 +60,12 @@
 						<div class="col-sm-6 col-xs-12">
 							<div class="socil-media text-right">
 								<ul>
-									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-									<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-									<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+									<li><a href="https://www.facebook.com/sanusiikeoluwaa/" target="blak_"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="https://www.instagram.com/sanusi_ikeoluwa/" target="blak_"><i class="fa fa-instagram"></i></a></li>
+									<li><a href="https://twitter.com/kwycee" target="blak_"><i class="fa fa-twitter"></i></a></li>
+									<!--<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+									<li><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
+									
 								</ul>
 							</div>
 						</div>

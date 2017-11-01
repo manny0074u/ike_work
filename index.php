@@ -1,6 +1,15 @@
 <?php 
 $menu="home";
 include('inc/header.php');
+include('inc/connect.php');
+
+$sql ="SELECT * FROM pictures LIMIT 0,8";
+$query = mysqli_query($con, $sql);
+
+$sql1 ="SELECT * FROM product LIMIT 0,4";
+$query1 = mysqli_query($con, $sql1);
+
+
 
 
 ?>
@@ -180,6 +189,12 @@ include('inc/header.php');
 					</div>
 				</div>
 				<div class="row grid">
+
+					<?php
+
+                        while($row =mysqli_fetch_array($query)){
+
+                       echo ' 
 					<div class="col-md-4 col-sm-6 col-xs-12 grid-item ">
 						<div class="portfolio-wrap mb-30">
 							<img src="assets/images/portfolio/portfolio2/6.jpg" alt="" />
@@ -190,7 +205,10 @@ include('inc/header.php');
 								<h3>BEARD TRIMMING</h3>
 							</div>
 						</div>
-					</div>
+					</div>';
+				}
+
+				?>
 					
 				</div>
 			</div>
@@ -224,7 +242,11 @@ include('inc/header.php');
 					</div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4 col-sm-6 col-xs-12">
+                	<?php
+
+                	while ($row1 =mysqli_fetch_array($query1)) {
+                	
+                    echo '<div class="col-md-3 col-sm-6 col-xs-12">
                         <div class="shop-wrap">
                             <div class="shop-img">
                                 <img src="assets/images/shop/4.jpg" alt="" />
@@ -233,20 +255,18 @@ include('inc/header.php');
                                 </a>
                             </div>
                             <div class="shop-content">
-                                <h3><a href="shop.html">Hair Dryer</a></h3>
-                                <ul>
-                                	<li><i class="fa fa-star"></i></li>
-                                	<li><i class="fa fa-star"></i></li>
-                                	<li><i class="fa fa-star"></i></li>
-                                	<li><i class="fa fa-star-half-o"></i></li>
-                                	<li><i class="fa fa-star-o"></i></li>
-                                </ul>
-                                <span>$25.00</span>
-                                <del>$20.00</del>
+                                <h3 style="font-weight: bolder;"><a href="shop.html">Hair Dryer</a></h3>
+                               
+                               <span style="font-size: 20px; font-weight: bolder;">$25.00</span>  
                             </div>
                         </div>
-                    </div>
+                    </div>';
+
+                }
+
+                ?>
                    
+
                 </div>
         	</div>
         </div>

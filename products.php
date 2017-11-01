@@ -1,6 +1,12 @@
 <?php
 $menu="product";
 include('inc/header.php');
+include('inc/connect.php');
+
+$sql ="SELECT * FROM product ";
+$query = mysqli_query($con, $sql);
+
+
 
 
 ?>
@@ -13,8 +19,8 @@ include('inc/header.php');
                         <div class="row">
                             <div class="col-xs-12">
                                 <div class="breadcumb-wrap text-center">
-                                    <h1>Services & Hundreds</h1>
-                                    <h2>Service</h2>
+                                  
+                                    <h2>Products</h2>
                                 </div>
                             </div>
                         </div>
@@ -41,18 +47,29 @@ include('inc/header.php');
 		<div class="service-area ptb-100 bg-1 service-area2 service-style">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4 col-sm-6 col-xs-12">
-						<div class="service-wrap text-center mb-30">
-							<div class="service-img">
-								<img src="assets/images/shop/1.jpg" alt="" />
-							</div>
-							<div class="service-content">
-								<h3>Hair Dryer</h3>
-									<span style="font-size: 20px; font-weight: bolder;">$25.00</span>
-							</div>
-						</div>
-					</div>
-					
+                   <?php
+
+                    while ($row =mysqli_fetch_array($query)) {
+                    
+                    echo '<div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="shop-wrap">
+                            <div class="shop-img">
+                                <img src="assets/images/shop/4.jpg" alt="" />
+                                <a href="shop.html" class="cart">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </a>
+                            </div>
+                            <div class="shop-content">
+                                <h3 style="font-weight: bolder;"><a href="shop.html">Hair Dryer</a></h3>
+                               
+                               <span style="font-size: 20px; font-weight: bolder;">$25.00</span>  
+                            </div>
+                        </div>
+                    </div>';
+
+                }
+
+                ?>
 					
 				</div>
 			</div>

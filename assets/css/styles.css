@@ -578,7 +578,11 @@ ul{
 	content:"";
 	z-index:9;
 	opacity:.5;
+
+
 }
+
+
 .slider-content{
 	position:absolute;
 	left:0;
@@ -686,6 +690,14 @@ ul{
 .slider-active .owl-nav div.owl-prev:hover:before{
 	background:#cc7e28;
 }
+
+@media only screen and (max-width: 1024px){
+	.slider-active > img {
+		width: 100px;
+		height: 200px;
+	}
+}
+
 /*---------------------- 3. slider-area end ---------------------*/
 
 
@@ -3324,6 +3336,13 @@ ol{
     text-transform: capitalize;
 }
 
+
+@media only screen and (max-width: 1024%){
+
+	.rep{
+		width: 100%;
+	}
+}
 
 
 

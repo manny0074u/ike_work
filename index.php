@@ -16,7 +16,7 @@ $query1 = mysqli_query($con, $sql1);
 		<!-- heared area start -->
 		
 		<!-- slider area start -->
-		<div class="slider-area mt-84">
+		<div class="slider-area mt-8 ">
 			<div class="slider-active">
 				<div class="slider-items">
 					<img src="assets/images/slider/1.jpg" alt="" class="slider">

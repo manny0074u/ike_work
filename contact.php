@@ -32,7 +32,6 @@ if(isset($_POST["submit"]))
 
 ?>
 
-?>
 		
         <!-- .breadcumb-area start -->
         <div class="breadcumb-area black-opacity mt-84 bg-img-6">

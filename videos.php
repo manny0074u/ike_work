@@ -1,9 +1,12 @@
 
-
-
 <?php
 $menu="gallery";
 include('inc/header.php');
+
+include('inc/connect.php');
+$sql ="SELECT * FROM videos ";
+$query = mysqli_query($con, $sql);
+
 
 
 ?>
@@ -16,7 +19,7 @@ include('inc/header.php');
                         <div class="row">
                             <div class="col-xs-12">
                                 <div class="breadcumb-wrap text-center">
-                                    <h1>Videos</h1>
+                                     <h2>Videos</h2>
                                     
                                 </div>
                             </div>
@@ -40,72 +43,50 @@ include('inc/header.php');
         </div>
         <!-- .breadcumb-area end -->
         
-        <!-- .shop-area start -->
-        <div class="shop-area ptb-100 bg-1">
+        <!-- blog-area start -->
+        <div class="blog-area ptb-100 bg-1 blog-area2">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1 col-xs-12">
-                        <div class="section-title text-center mb-40">
-                           
-                            
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="shop-wrap">
-                            <div class="shop-img">
-                               
- <iframe width="400" height="300" src="https://www.youtube.com/embed/qvXXMsiQBDg" frameborder="0" allowfullscreen></iframe>
+                    <?php
+
+                        while($row =mysqli_fetch_array($query)){
+
+                       echo ' 
+                    <div class="col-md-4  col-xs-12 col-sm-6">
+                        <div class="blog-wrap mb-30">
+                            <div class="">
+                                '.$row['link'].'
                                 
                             </div>
-                            
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="shop-wrap">
-                            <div class="shop-img">
-                               
- <iframe width="400" height="300" src="https://www.youtube.com/embed/qvXXMsiQBDg" frameborder="0" allowfullscreen></iframe>
+                            <div class="blog-content">
+                                
+                                <!--<h3>Best Hair Cut for Woman</h3>-->
                                
                             </div>
-                          
                         </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="shop-wrap">
-                            <div class="shop-img">
-                             
- <iframe width="400" height="300" src="https://www.youtube.com/embed/qvXXMsiQBDg" frameborder="0" allowfullscreen></iframe>
-                               
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- .shop-area end -->
+                    </div>';
 
 
-                    <!-- pagination style start-->
-                    <div class="col-xs-12">
-                        <div class="pagination-wrap">
-                            <ul>
-                                <li><a href="#"><i class="fa fa-angle-double-left"></i></a></li>
-                                <li class="active"><a href="#">1</a></li>
-                                <li><a href="#">2</a></li>
-                                <li><a href="#">3</a></li>
-                                <li><a href="#"><i class="fa fa-angle-double-right"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- pagination style end-->
+                }
+
+
+                ?>
+
+
+
+
+
+
+
+
+                    
                 </div>
             </div>
         </div>
         <!-- blog-area end -->
+
+
+                   
         
         
        

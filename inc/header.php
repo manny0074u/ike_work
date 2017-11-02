@@ -63,6 +63,8 @@
 			</div>
 		</div>
        <!--End preloader area-->
+       <!-- heared area start -->
+	
 		
 		<!-- heared area start -->
 		<header class="header-area" id="sticky-header">

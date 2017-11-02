@@ -2,6 +2,79 @@
 <?php
 $menu="product";
 include('inc/header.php');
+include('inc/connect.php');
+$sql = "SELECT * FROM product WHERE id='".$_GET['id']."'";
+$query = mysqli_query($con , $sql);
+$row = mysqli_fetch_array($query);
+
+
+
+
+  if (isset($_POST['submit']) ){
+
+  $fname = trim($_POST['fname']);
+    
+    $phone = trim($_POST['phone']);
+    $email = trim($_POST['email']);
+    $state = trim($_POST['state']);
+    $city = trim($_POST['city']);
+    $quantity = trim($_POST['quantity']);
+    $picture = trim($_POST['picture']);
+    $price = trim($_POST['price']);
+    $Amount = trim($_POST['Amount']);
+    $name = trim($_POST['name']);
+
+
+    
+    if($fname=="" && $phone==""){
+      echo "<script>alert('Fields are empty');  </script>";
+      //$msg = "Fields are empty!";
+    }
+if($fname=="" || $phone==""){
+      echo "<script>alert('A Field is empty!');  </script>";
+      //$msg = "A Field is empty!";
+    }
+    else{
+                
+      $date = date('l jS \of F Y ');
+      $time = date("h:i:sa");
+                    
+                      
+      $sql = "INSERT INTO pro_order VALUES('','".$fname."','".$phone."','".$email."','".$state."','".$city."','".$quantity."','".$picture."','".$price."','".$Amount."','".$name."' ,'".$date."','".$time."','1','1')";
+           $query = mysqli_query($con, $sql);
+
+           
+
+ 
+     
+    
+
+
+      $recipient="info@madutechngltd.com";
+       $subject="PRODUCT ORDER";
+
+    $fname = trim($_POST['fname']);
+    $phone = trim($_POST['phone']);
+    $email = trim($_POST['email']);
+    $state = trim($_POST['state']);
+    $city = trim($_POST['city']);
+    $quantity = trim($_POST['quantity']);
+    $price = trim($_POST['price']);
+    $Amount = trim($_POST['Amount']);
+    $name = trim($_POST['name']);
+
+    $mailBody="Name: $fname\n   Phone: $phone\n    Email: $email\n    State: $state\n    City: $city\n   Quanity: $quantity\n   Price: $price\n   Amount: $Amount\n   Product Name: $name\n ";
+
+
+    mail($recipient, $subject, $mailBody, "From: $fname <$email>");
+
+    echo "<script>alert('Message Sent'); </script>";
+     }
+     
+
+    
+}
+
 
 
 
@@ -63,11 +136,28 @@ include('inc/header.php');
 								<tbody>
 									<tr>
 										<!--<td><a href="#"><i class="fa fa-times"></i></a></td>-->
-										<td><img src="assets/images/cart/1.jpg" alt="" /></td>
-										<td><p>Hair Color</p></td>
-										<td><span>$35.00</span></td>
-										<td><input type="number" value="10"/></td>
-										<td><span>$35.00</span></td>
+										<td><img src="admin/images/<?php echo $row['picture'] ?>" alt="" /></td>
+										<td><p><?php echo $row['name'] ?></p></td>
+										<td><span>₦<?php echo $row['price'] ?></span></td>
+										<td><select id="itemQuantitySelect_3" name="quantity"  class="form-control">
+                                     <option value="1">1</option>
+                                      <option value="2">2</option>
+                                      <option value="3">3</option>
+                                      <option value="4">4</option>
+                                      <option value="5">5</option>
+                                      <option value="6">6</option>
+                                      <option value="7">7</option>
+                                      <option value="8">8</option>
+                                      <option value="9">9</option>
+                                      <option value="10">10</option>
+                                      <option value="11">11</option>
+                                      <option value="12">12</option>
+                                      <option value="13">13</option>
+                                      <option value="14">14</option>
+                                      <option value="15">15</option>
+
+                                    </select></td>
+										<td><span>₦</span><span id="spanPrice"><?php echo $row['price'] ?></span></td>
 									</tr>
 									
 								</tbody>
@@ -145,7 +235,10 @@ include('inc/header.php');
 										<p>City <span>*</span></p>
 	<input required type="text" id="autocomplete" placeholder="Enter your City" onFocus="geolocate()" name="city" />
 								
-									
+		 <input class="hidden" type="text"  name="name" value="<?php echo $row['name'] ?>" />
+ <input class="hidden" type="text"  name="price" value="<?php echo $row['price'] ?>" />
+ <input class="hidden" type="text"  name="picture" value="<?php echo $row['picture'] ?>" />
+ <input class="hidden" type="text"  name="Amount" id="Amount" />							
 	</div>
 	<button type="submit" name="submit" class="btn cart-btn btn-danger btn-lg">SUBMIT</button>	
 </div>
@@ -176,6 +269,23 @@ include('inc/header.php');
 			</div>
 		</div>
 		<!-- cart-area end -->
+
+
+		<script>
+     $(document).ready(function() {
+        $('#itemQuantitySelect_3').change(function() {
+            
+            var itemPrice = <?php echo $row['price']; ?>;
+            var itemQuantity = $(this).val();
+            var quantityPrice = (itemPrice * itemQuantity).toFixed(2);
+
+            //$(this).next("span").html("$" + quantityPrice);
+            $("#spanPrice").text(quantityPrice);
+            $("#Amount").val(quantityPrice);
+
+        });
+    });
+    </script>
 		
 
 <?php

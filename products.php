@@ -55,7 +55,7 @@ $query = mysqli_query($con, $sql);
                         <div class="shop-wrap">
                             <div class="shop-img">
                                 <img src="assets/images/shop/4.jpg" alt="" />
-                                <a href="shop.html" class="cart">
+                                <a href="cart.php?id='.$row['id'].'" class="cart">
                                     <i class="fa fa-shopping-cart"></i>
                                 </a>
                             </div>

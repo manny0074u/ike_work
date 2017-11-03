@@ -114,7 +114,7 @@ include('inc/header.php');
 		</div>
 		<!-- .service-area end -->
         
-        <div class="spacial-area ptb-100 parallax black-opacity"  data-speed="3" data-bg-image="assets/images/bg/6.jpg">
+        <div class="spacial-area ptb-100 parallax black-opacity"  data-speed="3" data-bg-image="assets/images/4.jpg">
         	<div class="container">
         		<div class="row">
         			<div class="col-xs-12">

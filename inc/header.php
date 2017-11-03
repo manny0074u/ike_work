@@ -107,26 +107,7 @@
 					</div>
 					<div class="col-md-1 col-sm-3 col-xs-3">
 						<div class="cart-wrap text-right">
-							<ul>
-								<li>
-									<a href="shop.html">
-										<span class="flaticon-shopping-cart-black-shape"></span>
-									</a>
-								</li>
-								<li>
-									<a href="javascript:void(0);">
-										<span class="flaticon-search"></span>
-									</a>
-									<ul>
-										<li>
-											<form action="#">
-												<input type="text" placeholder="Search here ..."/>
-												<button><span class="flaticon-search"></span></button>
-											</form>
-										</li>
-									</ul>
-								</li>
-							</ul>
+							
 						</div>
 					</div>
 					<div class="col-sm-1 clear col-xs-2 hidden-md hidden-lg">

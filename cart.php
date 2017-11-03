@@ -12,45 +12,8 @@ $row = mysqli_fetch_array($query);
 
   if (isset($_POST['submit']) ){
 
-  $fname = trim($_POST['fname']);
-    
-    $phone = trim($_POST['phone']);
-    $email = trim($_POST['email']);
-    $state = trim($_POST['state']);
-    $city = trim($_POST['city']);
-    $quantity = trim($_POST['quantity']);
-    $picture = trim($_POST['picture']);
-    $price = trim($_POST['price']);
-    $Amount = trim($_POST['Amount']);
-    $name = trim($_POST['name']);
-
-
-    
-    if($fname=="" && $phone==""){
-      echo "<script>alert('Fields are empty');  </script>";
-      //$msg = "Fields are empty!";
-    }
-if($fname=="" || $phone==""){
-      echo "<script>alert('A Field is empty!');  </script>";
-      //$msg = "A Field is empty!";
-    }
-    else{
-                
-      $date = date('l jS \of F Y ');
-      $time = date("h:i:sa");
-                    
-                      
-      $sql = "INSERT INTO pro_order VALUES('','".$fname."','".$phone."','".$email."','".$state."','".$city."','".$quantity."','".$picture."','".$price."','".$Amount."','".$name."' ,'".$date."','".$time."','1','1')";
-           $query = mysqli_query($con, $sql);
-
-           
-
  
-     
-    
-
-
-      $recipient="info@madutechngltd.com";
+      $recipient="info@sigprodigy.com";
        $subject="PRODUCT ORDER";
 
     $fname = trim($_POST['fname']);
@@ -68,12 +31,12 @@ if($fname=="" || $phone==""){
 
     mail($recipient, $subject, $mailBody, "From: $fname <$email>");
 
-    echo "<script>alert('Message Sent'); </script>";
+    echo "<script>alert('Your Order as been made'); </script>";
      }
      
 
     
-}
+
 
 
 
@@ -122,6 +85,7 @@ if($fname=="" || $phone==""){
 				<div class="row">
 					<div class="col-xs-12">
 						<div class="table-responsive mb-40 cart-wrapper">
+							<form method="post" action="cart.php">
 							<table>
 								<thead>
 									<tr>
@@ -173,12 +137,12 @@ if($fname=="" || $phone==""){
 					<div class="col-md-9 ">
 						<div class="checkout-form-wrap mb-20">
 							<h3 class="checkout-title">Fill the form below to place order</h3>
-							<form method="post" action="cart.php">
+							
 							<div class="checkout-form">
 								<div class="row">
 									<div class="col-sm-12 col-xs-12">
 										<p>full Name <span>*</span></p>
-										<input required type="text" name="name" placeholder="Your first name..."/>
+										<input required type="text" name="fname" placeholder="Your first name..."/>
 									</div>
 									<div class="col-sm-6 col-xs-12">
 										<p>Phone <span>*</span></p>
@@ -190,7 +154,7 @@ if($fname=="" || $phone==""){
 									</div>
 									<div class="col-sm-6 col-xs-12">
 										<p>State <span>*</span></p>
-										<select required name="select" name="state">
+										<select required name="state">
 											<option>-- Select State --</option>
  <option value="ABIA">ABIA</option>
               <option value="ADAMAWA">ADAMAWA</option>

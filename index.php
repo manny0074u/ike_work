@@ -10,6 +10,11 @@ $sql1 ="SELECT * FROM product LIMIT 0,4";
 $query1 = mysqli_query($con, $sql1);
 
 
+$sql3 ="SELECT * FROM slides WHERE status=1 ";
+$query3 = mysqli_query($con, $sql3);
+
+
+
 
 
 ?>
@@ -18,8 +23,13 @@ $query1 = mysqli_query($con, $sql1);
 		<!-- slider area start -->
 		<div class="slider-area mt-84">
 			<div class="slider-active">
-				<div class="slider-items">
-					<img src="assets/images/slider/1.jpg" alt="" class="slider">
+				<?php
+
+                        while($row1 =mysqli_fetch_array($query3)){
+
+                       echo ' 
+			<div class="slider-items">
+					<img src="assets/images/1.jpg" alt="" class="slider">
 					<div class="slider-content">
 						<div class="table">
 							<div class="table-cell">
@@ -28,7 +38,7 @@ $query1 = mysqli_query($con, $sql1);
 										<div class="col-xs-12 col-md-8">
 											<h2>Welcome our Barber Shop</h2>
 											<h3>we Trule Believe Haircut Matters </h3>
-											<p>simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+											<p>simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 											<ul>
 												<li><a href="#">Book Appointment</a></li>
 												<li><a href="#">I Want to Order</a></li>
@@ -39,29 +49,17 @@ $query1 = mysqli_query($con, $sql1);
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="slider-items">
-					<img src="assets/images/slider/2.jpg" alt="" class="slider">
-					<div class="slider-content text-right">
-						<div class="table">
-							<div class="table-cell">
-								<div class="container">
-									<div class="row">
-										<div class="col-xs-12 col-md-8 col-md-offset-4">
-											<h2>Welcome our Barber Shop</h2>
-											<h3>we Trule Believe Haircut Matters </h3>
-											<p>simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-											<ul>
-												<li><a href="#">Book Appointment</a></li>
-												<li><a href="#">I Want to Order</a></li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+
+				</div>';
+
+}
+?>
+
+				
+
+
+				
+	</div>
 			</div>
 		</div>
 		<!-- slider area end -->
@@ -119,7 +117,7 @@ $query1 = mysqli_query($con, $sql1);
 		<!-- .service-area end -->
 		
 		<!-- opening-area start -->
-		<div class="opaning-area  parallax black-opacity opaning-area2"  data-speed="3" data-bg-image="assets/images/bg/7.jpg">
+		<div class="opaning-area  parallax black-opacity opaning-area2"  data-speed="3" data-bg-image="assets/images/4.jpg">
 			<div class="opening">
 				<div class="container">
 					<div class="row">
@@ -215,7 +213,7 @@ $query1 = mysqli_query($con, $sql1);
 		</div>
 		<!-- galley-area end -->
 
-		         <div class="spacial-area ptb-100 parallax black-opacity"  data-speed="3" data-bg-image="assets/images/bg/6.jpg">
+		         <div class="spacial-area ptb-100 parallax black-opacity"  data-speed="3" data-bg-image="assets/images/haircut.png">
         	<div class="container">
         		<div class="row">
         			<div class="col-xs-12">

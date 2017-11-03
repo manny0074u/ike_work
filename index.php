@@ -29,7 +29,7 @@ $query3 = mysqli_query($con, $sql3);
 
                        echo ' 
 			<div class="slider-items">
-					<img src="assets/images/1.jpg" alt="" class="slider">
+					<img src="../admin/images/'.$row1['picture'].'" alt="" class="slider">
 					<div class="slider-content">
 						<div class="table">
 							<div class="table-cell">
@@ -195,9 +195,9 @@ $query3 = mysqli_query($con, $sql3);
                        echo ' 
 					<div class="col-md-4 col-sm-6 col-xs-12 grid-item ">
 						<div class="portfolio-wrap mb-30">
-							<img src="assets/images/portfolio/portfolio2/6.jpg" alt="" />
+							<img src="../admin/images/'.$row['picture'].'" alt="" />
 							<div class="portfolio-content">
-								<a href="assets/images/portfolio/portfolio2/6.jpg" class="popup">
+								<a href="../admin/images/'.$row['picture'].'" class="popup">
 									<span class="fa fa-link"></span>
 								</a>
 								<h3>BEARD TRIMMING</h3>
@@ -247,15 +247,15 @@ $query3 = mysqli_query($con, $sql3);
                     echo '<div class="col-md-3 col-sm-6 col-xs-12">
                         <div class="shop-wrap">
                             <div class="shop-img">
-                                <img src="assets/images/shop/4.jpg" alt="" />
-                                <a href="shop.html" class="cart">
+                                <img src="../admin/images/'.$rw['picture'].'" alt="" />
+                               <a href="cart.php?id='.$rw['id'].'" class="cart">
                                     <i class="fa fa-shopping-cart"></i>
                                 </a>
                             </div>
                             <div class="shop-content">
-                                <h3 style="font-weight: bolder;"><a href="shop.html">Hair Dryer</a></h3>
+                                <h3 style="font-weight: bolder;"><a href="cart.php?id='.$rw['id'].'">'.$rw['name'].'</a></h3>
                                
-                               <span style="font-size: 20px; font-weight: bolder;">$25.00</span>  
+                               <span style="font-size: 20px; font-weight: bolder;">₦'.$rw['price'].'</span>  
                             </div>
                         </div>
                     </div>';
